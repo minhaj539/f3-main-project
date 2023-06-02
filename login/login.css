@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#login-form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    /* border: 1px solid goldenrod; */
+    justify-content: space-around;
+    gap: 20px;
+    /* height: 20vw; */
+    
+}
+#login-form>*{
+height: 50px;
+}
+#login{
+    font-size: x-large;
+}
+#login-btn{
+  transition: all 0.4s;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+#login-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+#email,#password{
+    padding-left: 20px;
+    font-size: larger;
+}
+
+ nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+
+  background-color: black;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+nav .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .nav-items a {
+  margin: 0 1rem;
+} 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  
+  /* EDITED */
+  #error-msg{
+    color: red;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 600;
+  }

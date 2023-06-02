@@ -1,0 +1,58 @@
+/* Write your styles here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.my-profile-section,.edit-password-section{
+    padding: 30px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.my-profile-section>input,.edit-password-section>input{
+    padding-left: 20px;
+    height: 60px;
+    font-size: larger;
+}
+h3{
+    font-size: 60px;
+    font-weight:bolder;
+    text-align: center;
+}
+
+button{
+    transition: all 0.4s;
+    width: 220px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+#logout-btn{
+    
+    margin-left: 30px;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+}
+
+#error-msg{
+
+   color: red;
+  font-size: larger;
+  margin-left: 30px;
+  margin-top: 0;
+ display: none;   
+}
+
+#error-msg-2{
+    color: red;
+  font-size: larger;
+  margin-left: 30px;
+  margin-top: 0;
+    display: none;
+}

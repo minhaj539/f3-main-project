@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./signup/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <style>
+      *{
+        font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+      }
+    </style>
+</head>
+<body>
+  <nav>
+    <div class="brand">
+      <a href="/">MeShop.</a>
+    </div>
+    <div class="nav-items">
+      <a href="#">Home</a>
+      <a href="login.html">Login</a>
+      <a href="#">Signup</a>
+      <a href="#">My Cart</a>
+      <a href="./profile.html">My profile</a>
+      
+    </div>
+  </nav>
+  
+    <form action="" id="signup-form">
+        <label for="">Signup</label>
+        <input type="text" placeholder="First Name" id="f-name">
+        <input type="text" placeholder="Last Name" id="l-name">
+        <input type="email" name="" id="email" placeholder="Email">
+        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Confirm Password" id="confirm-password">
+        
+        <button id="signup-btn">Sign up</button>
+        <!-- <a href="./shop/shop.html" style="color: black;">banf</a> -->
+        
+    </form>
+
+   
+    <div id="error-msg"></div>
+    <script src="./signup/signup.js"></script>
+</body>
+</html>

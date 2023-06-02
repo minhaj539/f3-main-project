@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+  transition: all 0.4s;
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover{
+
+    color: black;
+    background-color: white;
+    border-radius: 20%;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+#signup-form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#signup-form>input{
+    height: 50px;
+    font-size: large;
+    padding-left: 20px;
+}
+
+label{
+    font-size:xx-large;
+}
+
+button{
+  transition: all 0.4s;
+  color: white;
+background-color: black;
+  
+  width: 150px;
+  height: 40px;
+}
+button:hover{
+  color: black;
+  background-color: white;
+}
+
+#error-msg{
+  color: red;
+  font-size: larger;
+  margin-left: 30px;
+  margin-top: 0;
+}
